@@ -11,7 +11,7 @@
           <div class="form-group">
             <label for="email">email</label>
             <input formControlName="email" type="text" id="email" class="form-control">
-            <span *ngIf="!signupForm.valid && signupForm.touched" class="help-block">Please Enter a valid username</span>
+            <span *ngIf="!signupForm.valid && signupForm.touched" class="help-block">Please Enter a valid email</span>
           </div>
         </div>
         <div class="radio" *ngFor="let gender of genders">
